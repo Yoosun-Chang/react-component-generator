@@ -2,7 +2,6 @@
 name: pr-create
 description: 현재 브랜치의 변경사항을 분석하여 PR을 생성합니다. "PR 만들어줘", "PR 올려줘", "pull request 생성", "/pr-create" 호출 시 반드시 실행하라. fork 저장소에서 upstream base 브랜치를 지정하여 gh pr create를 실행합니다.
 version: 1.0.0
-context: fork
 allowed-tools: Read, Glob, Grep, Bash
 ---
 
